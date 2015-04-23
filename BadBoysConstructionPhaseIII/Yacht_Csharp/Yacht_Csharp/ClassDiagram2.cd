@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Yacht_Csharp.Aces" Collapsed="true">
+    <Position X="26.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Aces.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.Deuces" Collapsed="true">
+    <Position X="26.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Deuces.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.Dice">
+    <Position X="30.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAJAAAAAQAAAAAAAAAAEAAAIAAAACAAAAAAAAABA=</HashCode>
+      <FileName>Dice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.Fives" Collapsed="true">
+    <Position X="28.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fives.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.Fours" Collapsed="true">
+    <Position X="28.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fours.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.FullHouse" Collapsed="true">
+    <Position X="26.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FullHouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.Game">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAAAgQAACAAAAAAAAAAAgAAAgAAAAAAAAAAogAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.Gameplay_Form">
+    <Position X="38.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQCEAAgAAKEg6BAAAAiAAAAigAhEtAAAAMIggAAABAE=</HashCode>
+      <FileName>Gameplay_Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.Gamesetup_Form">
+    <Position X="34.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACACABAAAACAAAACAgAIEAAAAAAABAAAAAY=</HashCode>
+      <FileName>Gamesetup_Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.Initialization_Form">
+    <Position X="33" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAFAAAEDAAAQCAEE4AAAABAAAAQAAAAA=</HashCode>
+      <FileName>Initilization_Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.LuckyDip" Collapsed="true">
+    <Position X="26.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuckyDip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.Player">
+    <Position X="30.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACCAAAAggAAgAAAAIAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.Playersetup_Form">
+    <Position X="36.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAAIhgAACAAARgAAACAQAQCAQAIEAAAUEAgAIBAAAA=</HashCode>
+      <FileName>Playersetup_Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.Quads" Collapsed="true">
+    <Position X="28.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Quads.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.ScoringOptions">
+    <Position X="27.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAJAAAAAEAAABBAAAAQAAAAAAA=</HashCode>
+      <FileName>ScoringOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.Sixes" Collapsed="true">
+    <Position X="26.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.Straight" Collapsed="true">
+    <Position X="28.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Straight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.Stretch" Collapsed="true">
+    <Position X="28.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stretch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.Threes" Collapsed="true">
+    <Position X="28.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.Trips" Collapsed="true">
+    <Position X="26.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Trips.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yacht_Csharp.Yacht_C_sharp" Collapsed="true">
+    <Position X="27.75" Y="10.25" Width="1.5" />
+    <InheritanceLine Type="Yacht_Csharp.ScoringOptions" FixedFromPoint="true">
+      <Path>
+        <Point X="28.5" Y="3.276" />
+        <Point X="28.5" Y="10.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Yacht_C-sharp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

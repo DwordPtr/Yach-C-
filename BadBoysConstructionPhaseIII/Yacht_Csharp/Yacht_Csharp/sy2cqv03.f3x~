@@ -1,0 +1,53 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Yacht_Csharp
+{
+    public partial class Gamesetup_Form : Form
+    {
+        public Gamesetup_Form()
+        {
+            InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int numplayers = 0;
+
+            if (radioButton1.Checked == true)
+                numplayers = 1;
+            if (radioButton2.Checked == true)
+                numplayers = 2;
+            if (radioButton3.Checked == true)
+                numplayers = 3;
+            if (radioButton4.Checked == true)
+                numplayers = 4;
+            if (radioButton5.Checked == true)
+                numplayers = 5;
+            if (radioButton6.Checked == true)
+                numplayers = 6;
+            if (radioButton7.Checked == true)
+                numplayers = 7;
+            if (radioButton8.Checked == true)
+                numplayers = 8;
+
+            Game game = new Game();
+            game.Initialize_players(numplayers);
+
+            //make a new form to go to player characteristics setups
+            //names, gender, favorite color, preloaded character faces with moods
+        }
+    }
+}
