@@ -131,3 +131,16 @@ C:\Users\csci\Downloads\BadBoysConstructionPhaseIII\Yacht_Csharp\Yacht_Csharp\ob
 C:\Users\csci\Downloads\BadBoysConstructionPhaseIII\Yacht_Csharp\Yacht_Csharp\obj\Debug\Yacht_Csharp.Playersetup_Form.resources
 C:\Users\csci\Downloads\BadBoysConstructionPhaseIII\Yacht_Csharp\Yacht_Csharp\obj\Debug\Yacht_Csharp.Properties.Resources.resources
 C:\Users\csci\Downloads\BadBoysConstructionPhaseIII\Yacht_Csharp\Yacht_Csharp\obj\Debug\Yacht_Csharp.csproj.GenerateResource.Cache
+E:\Yacht_C#\Yach-C-\BadBoysConstructionPhaseIII\Yacht_Csharp\Yacht_Csharp\bin\Debug\Yacht_Csharp.exe.config
+E:\Yacht_C#\Yach-C-\BadBoysConstructionPhaseIII\Yacht_Csharp\Yacht_Csharp\obj\Debug\Yacht_Csharp.exe
+E:\Yacht_C#\Yach-C-\BadBoysConstructionPhaseIII\Yacht_Csharp\Yacht_Csharp\obj\Debug\Yacht_Csharp.pdb
+E:\Yacht_C#\Yach-C-\BadBoysConstructionPhaseIII\Yacht_Csharp\Yacht_Csharp\bin\Debug\Yacht_Csharp.exe
+E:\Yacht_C#\Yach-C-\BadBoysConstructionPhaseIII\Yacht_Csharp\Yacht_Csharp\bin\Debug\Yacht_Csharp.pdb
+E:\Yacht_C#\Yach-C-\BadBoysConstructionPhaseIII\Yacht_Csharp\Yacht_Csharp\obj\Debug\Yacht_Csharp.csprojResolveAssemblyReference.cache
+E:\Yacht_C#\Yach-C-\BadBoysConstructionPhaseIII\Yacht_Csharp\Yacht_Csharp\obj\Debug\Yacht_Csharp.Gameplay_Form.resources
+E:\Yacht_C#\Yach-C-\BadBoysConstructionPhaseIII\Yacht_Csharp\Yacht_Csharp\obj\Debug\Yacht_Csharp.HighScore_Form.resources
+E:\Yacht_C#\Yach-C-\BadBoysConstructionPhaseIII\Yacht_Csharp\Yacht_Csharp\obj\Debug\Yacht_Csharp.Initialization_Form.resources
+E:\Yacht_C#\Yach-C-\BadBoysConstructionPhaseIII\Yacht_Csharp\Yacht_Csharp\obj\Debug\Yacht_Csharp.Gamesetup_Form.resources
+E:\Yacht_C#\Yach-C-\BadBoysConstructionPhaseIII\Yacht_Csharp\Yacht_Csharp\obj\Debug\Yacht_Csharp.Playersetup_Form.resources
+E:\Yacht_C#\Yach-C-\BadBoysConstructionPhaseIII\Yacht_Csharp\Yacht_Csharp\obj\Debug\Yacht_Csharp.Properties.Resources.resources
+E:\Yacht_C#\Yach-C-\BadBoysConstructionPhaseIII\Yacht_Csharp\Yacht_Csharp\obj\Debug\Yacht_Csharp.csproj.GenerateResource.Cache
