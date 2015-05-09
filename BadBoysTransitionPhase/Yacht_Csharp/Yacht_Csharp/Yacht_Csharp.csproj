@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{26ECFB3A-C545-43CA-9608-A141AB4F5595}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Yacht_Csharp</RootNamespace>
+    <AssemblyName>Yacht_Csharp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\BadBoysEntertainment_Transition_Phase\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Yacht_Csharp.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A40BC9982E6033C5E5B92278D4860A75A93CAC02</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Yacht_Csharp_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aces.cs" />
+    <Compile Include="Deuces.cs" />
+    <Compile Include="Dice.cs" />
+    <Compile Include="Fives.cs" />
+    <Compile Include="Fours.cs" />
+    <Compile Include="FullHouse.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="Gameplay_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gameplay_Form.Designer.cs">
+      <DependentUpon>Gameplay_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HighScore.cs" />
+    <Compile Include="HighScore_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HighScore_Form.Designer.cs">
+      <DependentUpon>HighScore_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Initilization_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Initilization_Form.Designer.cs">
+      <DependentUpon>Initilization_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gamesetup_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gamesetup_Form.Designer.cs">
+      <DependentUpon>Gamesetup_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LuckyDip.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Playersetup_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Playersetup_Form.Designer.cs">
+      <DependentUpon>Playersetup_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Quads.cs" />
+    <Compile Include="ScoringOptions.cs" />
+    <Compile Include="Sixes.cs" />
+    <Compile Include="Straight.cs" />
+    <Compile Include="Stretch.cs" />
+    <Compile Include="Threes.cs" />
+    <Compile Include="Trips.cs" />
+    <Compile Include="Yacht_C-sharp.cs" />
+    <EmbeddedResource Include="Gameplay_Form.resx">
+      <DependentUpon>Gameplay_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HighScore_Form.resx">
+      <DependentUpon>HighScore_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Initilization_Form.resx">
+      <DependentUpon>Initilization_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gamesetup_Form.resx">
+      <DependentUpon>Gamesetup_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Playersetup_Form.resx">
+      <DependentUpon>Playersetup_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Yacht_Csharp_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DarthVaderheadshot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duck.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burns.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hentai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badass.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mouse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\simley.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rolldice1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rolldice2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rolldice3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rolldice4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rolldice5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rolldice6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

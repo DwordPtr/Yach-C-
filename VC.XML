@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="vc.xsl" ?>
+<doc>
+    <assembly>
+        <name>Yacht-C# Dice Game</name>
+        <version>1.5</version>
+    </assembly>
+
+    <requirements>
+
+        <requirement name="F:start_game">
+            <summary>
+            Starts a new game. 
+            </summary>
+        </requirement>
+	
+		<requirement name="F:view_highscores">
+            <summary>
+            Function that calls previously saved high scores and displays them.
+            </summary>
+        </requirement>
+		
+		<requirement name="F:load_savedgames">
+            <summary>
+            Function that loads previously saved, unfinished games, and will continue them where they are left off.
+            </summary>
+        </requirement>
+
+        <requirement name="F:initialize_players">
+            <summary>
+            Gives the player the option to start a game with a number of players greater than 1. Once players are initialized it will advance to the gameplay. The users will also have to personalize their game profile by adding a username.
+            </summary>
+        </requirement>
+
+        <requirement name="F:roll_dice">
+            <summary>
+            Players will have to roll the dice on their first turn. Then they will have the option to hold dice.
+            </summary>
+        </requirement>
+		        <requirement name="F:hold_dice">
+            <summary>
+            After a player rolls the dice, they will have the option to hold it. Also they will be given an opportunity to release once held dice if diserable.
+            </summary>
+        </requirement>
+		
+		<requirement name="F:choose_score">
+            <summary>
+            A player will have the option to choose which scoring option he/she wants to submit based on the dice they have.
+            </summary>
+        </requirement>
+		
+		<requirement name="F:approve_score">
+            <summary>
+            The software will check if score can be approved according to the standard rules.
+            </summary>
+        </requirement>
+		
+		<requirement name="F:check_winningcondition">
+            <summary>
+           This function will check whether the scoring option the player chooses is true, and will distribute points accordingly. 
+            </summary>
+        </requirement>
+
+        <requirement name="F:assign_score">
+            <summary>
+            The score of the player will be assigned accordingly, and then will continue to the next player's turn.
+            </summary>
+        </requirement>
+
+        <requirement name="F:save_game">
+            <summary>
+			If a game is unable to be finished in the time allotted, the players will have the option to save the current game state for future enjoyment.
+            </summary>
+        </requirement>
+
+		<requirement name="F:end_game">
+            <summary>
+            Once the game is finished, the scores will be compared to previously saved scores and will check whether or not they are worthy to be on the High Scores list.
+            </summary>
+        </requirement>
+		
+		<requirement name="F:init_computer">
+            <summary>
+			If the player is lonely and wants to play with a friend, but doesn't have any, we will implement a simple AI component to play against. 
+            </summary>
+        </requirement>
+				
+        <requirement name="C:platform_os">
+            <summary>
+            The target platform operating system is Windows 7.
+            </summary>
+        </requirement>
+		
+		<requirement name="C:monitor_resolution">
+            <summary>
+            A minimun monitor resolution or 1024 X 768 is required for optimal viewing.
+            </summary>
+        </requirement>
+		
+		<requirement name="C:dot_net_check">
+            <summary>
+            Check to ensure our software will run on their version of the .Net platform.
+            </summary>
+        </requirement>
+		
+		<requirement name="R:check_username">
+            <summary>
+			This function will check whether a username is vulgar or not.
+	    </summary>
+        </requirement>
+
+		
+    </requirements>
+</doc>

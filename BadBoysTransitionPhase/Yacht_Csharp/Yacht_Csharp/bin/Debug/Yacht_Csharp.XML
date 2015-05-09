@@ -1,0 +1,410 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yacht_Csharp</name>
+    </assembly>
+    <members>
+        <member name="T:Yacht_Csharp.ScoringOptions">
+            <summary>
+            Scoring Options is an abstract class for each of the defined Yacht-C# scoring options
+            </summary>
+        </member>
+        <member name="M:Yacht_Csharp.ScoringOptions.checkScore(System.Collections.Generic.List{System.Int32})">
+            <summary>
+            
+            </summary>
+            <param name="faces"> Takes a list of ints that corresponds to each of the dice values</param>
+            <returns></returns>
+        </member>
+        <member name="P:Yacht_Csharp.ScoringOptions.IsChosen">
+            <summary>
+            IsChosen is a boolean that gives 
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.ScoringOptions.Score">
+            <summary>
+            The value of the score associated with the score type
+            This is set according to different rules for the different derrived classes
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.ScoringOptions.ScoringName">
+            <summary>
+            The name for each score type
+            </summary>
+        </member>
+        <member name="T:Yacht_Csharp.Dice">
+            <summary>
+            Dice is the class that holds all of the methods and performs all of the functions for dice
+            </summary>
+        </member>
+        <member name="M:Yacht_Csharp.Dice.roll_dice">
+            <summary>
+            roll dice is a method that generates a random number from 1-6 for each dice that is not held
+            </summary>
+        </member>
+        <member name="M:Yacht_Csharp.Dice.reset_dice">
+            <summary>
+            reset_dice is a method that sets each face value of dice to 0 and marks them all as not held.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Dice.Faces">
+            <summary>
+            Faces is a list of integers that correspond to the value of each rolled dice
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Dice.Faces_held">
+            <summary>
+            Faces_held is a list of booleans that correspond to whether or not a dice is held
+            </summary>
+        </member>
+        <member name="F:Yacht_Csharp.Game.numPlayer">
+            <summary>
+            The number of players in a game
+            </summary>
+        </member>
+        <member name="M:Yacht_Csharp.Game.initialize_players(System.Int32)">
+            <summary>
+            This method creates a player object
+            for each player in the game
+            </summary>
+            <param name="numplayers"></param>
+        </member>
+        <member name="T:Yacht_Csharp.Gameplay_Form">
+            <summary>
+             This is the form that displays all of the Gameplay options
+            </summary>
+        </member>
+        <member name="F:Yacht_Csharp.Gameplay_Form.scores_dice">
+            <summary>
+            This dice list is used to check scores so that the gameplay dice is not manipulated by the checkscores functions
+            </summary>
+        </member>
+        <member name="F:Yacht_Csharp.Gameplay_Form.HeldDiceBoxList">
+            <summary>
+            This is a list that holds all of the picture boxes that display the dice that are held
+            </summary>
+        </member>
+        <member name="F:Yacht_Csharp.Gameplay_Form.RollDiceBoxList">
+            <summary>
+            This is a list that holds all of the picture boxes that display the dice that are rolled
+            </summary>
+        </member>
+        <member name="F:Yacht_Csharp.Gameplay_Form.gameSaveState">
+            <summary>
+            A boolean that is used to check whether this gamestate is saved 
+            </summary>
+        </member>
+        <member name="M:Yacht_Csharp.Gameplay_Form.#ctor">
+            <summary>
+            Form Initialization function
+            </summary>
+        </member>
+        <member name="F:Yacht_Csharp.Gameplay_Form.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Yacht_Csharp.Gameplay_Form.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Yacht_Csharp.Gameplay_Form.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Yacht_Csharp.HighScore">
+            <summary>
+            This class contains all the info for a list of highscores
+            </summary>
+        </member>
+        <member name="F:Yacht_Csharp.HighScore.highScores">
+            <summary>
+            A list of player objects with the highest scores
+            </summary>
+        </member>
+        <member name="M:Yacht_Csharp.HighScore.PresetHighScores">
+            <summary>
+            Presets the HighScores
+            </summary>
+        </member>
+        <member name="M:Yacht_Csharp.HighScore.CheckHighscores(System.Collections.Generic.List{Yacht_Csharp.Player})">
+            <summary>
+            Read the player lists into high scores
+            </summary>
+            <param name="gametimeplayers"></param>
+        </member>
+        <member name="M:Yacht_Csharp.HighScore.CheckHighscores">
+            <summary>
+            Overloaded Check HighScores
+            loads in the presets if previous high scores don't exsist
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.HighScore.HighScores">
+            <summary>
+            The list of players with highscores
+            </summary>
+        </member>
+        <member name="T:Yacht_Csharp.HighScore_Form">
+            <summary>
+            This class handles the gui for the highscore pane
+            </summary>
+        </member>
+        <member name="M:Yacht_Csharp.HighScore_Form.#ctor">
+            <summary>
+            initialize HighScore_Form 
+            </summary>
+        </member>
+        <member name="F:Yacht_Csharp.HighScore_Form.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Yacht_Csharp.HighScore_Form.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Yacht_Csharp.HighScore_Form.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Yacht_Csharp.Initialization_Form.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Yacht_Csharp.Initialization_Form.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Yacht_Csharp.Initialization_Form.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Yacht_Csharp.Gamesetup_Form">
+            <summary>
+            This class is the form that sets the number of players
+            </summary>
+        </member>
+        <member name="F:Yacht_Csharp.Gamesetup_Form.inF">
+            <summary>
+            This passes the reference of the data to the deeper forms
+            </summary>
+        </member>
+        <member name="M:Yacht_Csharp.Gamesetup_Form.#ctor">
+            <summary>
+            A call to initialize the form
+            </summary>
+        </member>
+        <member name="F:Yacht_Csharp.Gamesetup_Form.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Yacht_Csharp.Gamesetup_Form.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Yacht_Csharp.Gamesetup_Form.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Gamesetup_Form.Numplayeriter">
+            <summary>
+            This represents the number of players in a game
+            </summary>
+        </member>
+        <member name="T:Yacht_Csharp.Player">
+            <summary>
+            This class is the representation of each player in the game
+            Each instansce of this class is a memeber of the list
+            that contains a games players
+            </summary>
+        </member>
+        <member name="M:Yacht_Csharp.Player.#ctor">
+            <summary>
+            The constructor for player makes an instance of each scoring object
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Player.AvatarInt">
+            <summary>
+            An int that represents which avatar is associated with a user
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Player.ScoringOptions">
+            <summary>
+            This list is used to so a user can choose which score type 
+            to add to their score Lucky Dip, Trips etc
+            </summary>
+        </member>
+        <member name="T:Yacht_Csharp.Playersetup_Form">
+            <summary>
+            This class makes the form that allows the user to choose their players name and avatar
+            for each individual player in the list
+            </summary>
+        </member>
+        <member name="M:Yacht_Csharp.Playersetup_Form.#ctor">
+            <summary>
+            Intializes the form
+            </summary>
+        </member>
+        <member name="F:Yacht_Csharp.Playersetup_Form.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Yacht_Csharp.Playersetup_Form.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Yacht_Csharp.Playersetup_Form.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Yacht_Csharp.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:Yacht_Csharp.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.badass">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.burns">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.DarthVaderheadshot">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.dice1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.dice2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.dice3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.dice4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.dice5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.dice6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.duck">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.fox">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.hentai">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.jake">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.mouse">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.rolldice1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.rolldice2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.rolldice3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.rolldice4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.rolldice5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.rolldice6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Yacht_Csharp.Properties.Resources.simley">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>
