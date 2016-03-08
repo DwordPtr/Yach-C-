@@ -1,10 +1,27 @@
 Yacht C# User Manual
 ===================
 
+## Note Potential Employers of DwordPtr or [therighteousloaf](https://github.com/righteousloaf)
+*this isn't part of the original documentation*
+
+ This was a group a project for a software engineering class; most the good
+ design in this project is the responsibility of Sam aka therighteousloaf.
+I uploaded this project at his request as he hadn't mastered git at the
+ time of this projects completion (he was a physics major pivoting into SE).
+ While I did definitely perform enough work to deserve a good grade in the
+ class, (including this documentation! and testing) I feel the majority of the credit
+ for this apps success should go to him. If you're a hiring manager or dev
+ screening Sam, hire him you won't regret it. If you're a hiring manager or dev
+ screening for DwordPtr aka Bryan, I am quite confident in my skills and experience, so
+ feel no need try and steal all the credit for this amazing project.
+
+*now back to the app doc*
 A Bad Boys Entertainment production
 ---
 
-Yacht C# is a C# implementation of **Milton Bradley**'s **Yahtzee** and is in no way affiliated with the owners of the trademark. It is a not for profit implementation for educational purposes only 
+Yacht C# is a C# implementation of **Milton Bradley**'s **Yahtzee**
+and is in no way affiliated with the owners of the trademark.
+It is a not for profit implementation for educational purposes only
 
 Application Start Page
 ---
@@ -46,7 +63,7 @@ View High Scores will display a form with the top 5 current high scores.
 Start Game
 ---
 This option will start the setup in order to begin a new game.
-It will ask for the number of players, then set up each player allowing the user to choose the name and avatar for each player. 
+It will ask for the number of players, then set up each player allowing the user to choose the name and avatar for each player.
 
 <h4>Number of Players (Game Setup)</h4>
 
@@ -63,7 +80,7 @@ This form allows the user to choose the name and avatar for each player in the g
 
 ![Player setup screenshot](images/PlayerSetup_edited.png)
 
-Gameplay 
+Gameplay
 ---
 This section is over the gameplay of the Yacht-C# implementation of Yahtzee.
 For a better understanding of the gameplay the user might want to review the [rules](images/http://www.yahtzee.org.uk/rules.html) of the game before playing.
@@ -86,6 +103,6 @@ Yacth C# also allows a button to actually choose the score item which will incre
 
 ![Gameplay Choose Score](images/New_Images/ChosenScore_edited.png)
 
-At the end of the 13 rounds after all 13 score items are chosen the game will be over. 
+At the end of the 13 rounds after all 13 score items are chosen the game will be over.
 
 Yacht C# displays a message to the user signifying the end of the game. If the score is high enough it will be displayed in the highscore list for all to see.
